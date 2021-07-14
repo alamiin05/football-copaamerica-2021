@@ -61,8 +61,8 @@ football players style
     grid-template-columns: repeat(3,1fr);
     column-gap: 30px;
     row-gap: 27px;
-    padding-left: 150px;
-    padding-right: 250px;
+    padding-left: 100px;
+    padding-right: 100px;
     margin-bottom: 70px;
   }
 .top-players {
