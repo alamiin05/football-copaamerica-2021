@@ -1,0 +1,165 @@
+/* font poppins  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    
+}
+/*------------------
+ football heading style 
+--------------- */
+.football{
+  display: flex;
+background-color: #2D25A0;
+height: 100%;
+max-width: 100%; 
+justify-content: center;
+align-items: center;
+margin-bottom: 70px;
+
+}
+.heading-title{
+    /*
+    padding-right: 102px;
+    padding-top: 207px;
+    padding-bottom: 169px; */
+    padding: 207px 102px 169px 0 ;
+}
+.title{
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 80px;
+}
+.link-button{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(253, 11, 71);
+    padding: 10px 24px 10px 24px;
+    line-height: 24px; 
+}
+.heading-banner img {
+    padding-top: 153px;
+    padding-bottom: 86px; 
+width:556px;
+height: 438px;
+}
+/* ------------
+football players style
+------------ */
+.football-players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 27px;
+    row-gap: 27px;
+    padding-left: 25%px;
+    padding-right: 25%px;
+    margin-bottom: 70px;
+  }
+.top-players {
+    width: 330px;
+    height: 474px;
+   padding:15px;
+  box-shadow: 0px 0px 40px 0px #00000026;
+}
+.player-img img{
+    width: 300px;
+height: 256px;
+padding:5px 15px 0 15px;
+}
+.player-name{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    color:#18191F;
+}
+.player-info{
+    font-size: 16px;
+    line-height: 26px;
+   color: #6C6C6C;
+}
+/* footer style */
+.copywrite{
+text-align: center;
+
+
+
+}
+.footer-logo img{
+    height: 100px;
+    width: 474px;
+    margin-bottom: 20px;
+    padding-right: 50px;  
+}
+
+.fab{
+font-size:26px;
+  padding-right: 14px;
+  line-height:20px; 
+  margin-bottom: 4px;
+  color: gray;
+}
+.footer-text
+{
+    font-size: 18px;
+    line-height:24px; 
+    
+}
+
+/* ----------
+Media queries 
+-----------*/
+/* Mobile Devices */
+/* ------
+For Heading 
+--------_*/
+@media only screen and (max-width:767px) {
+    
+    .football{
+        flex-direction: column;
+    }
+    .heading-title{
+        padding:0 0px 0 5px;
+    }
+    .title{
+        font-size: 36px;
+        line-height: 50px;
+    }
+   .heading-banner img {
+   padding: 100px 20px 40px 20px;
+    width: 329px;
+    height: 259px;
+    }
+    /* ---------
+    For Football Players 
+    ------------*/
+    .football-players{
+        grid-template-columns: repeat(1,1fr);
+        padding: 0 8% 6% 12%;
+        max-width: 100%;
+    }
+    .top-players {
+        width: 250px;
+        height: 420px;
+       
+    }
+    .player-img img{
+        width: 220px;
+    height: 170px;
+}
+}
+
+    /*----------------
+     For Footer  
+    ------------------*/
+    .footer-logo img {
+        height:65px;
+        width:225px;
+        margin-bottom: 10px;}
+        .copywrite { 
+           max-width: 100%;
+        }
+
+     
