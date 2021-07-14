@@ -4,13 +4,12 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
-    
 }
 /*------------------
  football heading style 
 --------------- */
 .football{
-  display: flex;
+display: flex;
 background-color: #2D25A0;
 height: 100%;
 max-width: 100%; 
@@ -26,7 +25,7 @@ margin-bottom: 70px;
     padding-bottom: 169px; */
     padding: 207px 102px 169px 0 ;
 }
-.title{
+.title {
     font-size: 64px;
     font-weight: 700;
     color: #FFFFFF;
@@ -34,28 +33,36 @@ margin-bottom: 70px;
 }
 .link-button{
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     color: white;
     background-color: rgb(253, 11, 71);
     padding: 10px 24px 10px 24px;
     line-height: 24px; 
+}
+.link-button:hover {
+    background-color: rgb(158, 158, 158) ;
+    transition: 0.1s;
 }
 .heading-banner img {
     padding-top: 153px;
     padding-bottom: 86px; 
 width:556px;
 height: 438px;
+
 }
+.heading-banner img:hover{
+    transform: scale(0.9) rotate(30deg); 
+    }
 /* ------------
 football players style
 ------------ */
 .football-players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    column-gap: 27px;
+    column-gap: 30px;
     row-gap: 27px;
-    padding-left: 18%;
-    padding-right: 25%;
+    padding-left: 180px;
+    padding-right: 250px;
     margin-bottom: 70px;
   }
 .top-players {
@@ -80,6 +87,64 @@ padding:5px 15px 0 15px;
     line-height: 26px;
    color: #6C6C6C;
 }
+/*-----------
+ NEWS HIGHLIGHTS styel
+ --------- */
+.highlights-title{
+     font-size:50px;
+     color: rgb(77, 89, 100);
+     background-color: antiquewhite;
+     text-align: center;
+ }
+
+ .all-highlights{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+ }
+ .football-highligths{
+  
+width:20%;
+padding-bottom: 30px;
+ 
+ }
+ .highlights img{
+height: 215px;
+width: 315px;
+
+ }
+ .news-title{
+     font-size: 15px;
+     color: #6C6C6C;
+     line-height: 40px;  
+ }
+ .news{
+     padding-bottom: 12%;
+ }
+ /* ---------- our offical sponsers--------- */
+
+ .our-sponsors{
+     font-size: 50px;
+     text-align: center;
+     color: rgb(77, 89, 100);
+     background-color: antiquewhite;
+     
+ }
+ .sponsors-details{
+     display: flex;
+     justify-content: space-evenly;
+    
+ }
+ .sponsors-logo img{
+     height: 250px;
+     width: 400px;
+     padding-top:30px ;
+     padding-bottom: 20%;
+     
+ }
+
+
 /* footer style */
 .copywrite{
 text-align: center;
@@ -149,7 +214,27 @@ For Heading
         width: 220px;
     height: 170px;
 }
+
+/* see more news style */
+.all-highlights{
+    flex-direction: column;
+    padding-left:20px;
 }
+.football-highligths{
+    width: 100%;
+}
+/*------- for our offcial sponsers----- */
+
+.sponsors-details{
+   flex-direction: column;
+   align-items: center;
+}
+.sponsors-logo img {
+    height: 125px;
+     width: 300px;
+     padding-left: 5%;
+}
+
 
     /*----------------
      For Footer  
@@ -157,9 +242,10 @@ For Heading
     .footer-logo img {
         height:65px;
         width:225px;
-        margin-bottom: 10px;}
+        margin-bottom: 10px;
+    }
         .copywrite { 
            max-width: 100%;
         }
 
-     
+    }
